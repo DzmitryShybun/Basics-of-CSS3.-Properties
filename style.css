@@ -1,3 +1,4 @@
+/*Цвет в CSS*/
 #color_text {
     text-decoration: underline;
 }
@@ -21,5 +22,23 @@
     border: 1px solid #020B0C;
     margin-top: 5px;
     border-radius: 5px;
+}
 
+/*Стилизация шрифтов*/
+.font{
+    font-family: Arial, Verdana, Helvetica;
+}
+.font p{
+    font-family: Verdana;
+}
+
+/*Толщина шрифта*/
+.font_weight_bold{
+    font-weight: bold;
+}
+.font_weight_normal{
+    font-weight: normal;
+}
+.italic{
+    font-style: italic;
 }
