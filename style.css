@@ -1,0 +1,25 @@
+#color_text {
+    text-decoration: underline;
+}
+
+.color_text p
+{
+    color: #C7C6B1;
+}
+
+.color_fon
+{
+    background-color: #92B5B9;
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.color_border{
+    width: 350px;
+    height: 350px;
+    border: 1px solid #020B0C;
+    margin-top: 5px;
+    border-radius: 5px;
+
+}
