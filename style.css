@@ -160,3 +160,44 @@ div.text_shadow{
     text-shadow: -5px -4px 3px #999;
     text-align: center;
 }
+
+/*Стилизация абзацев*/
+.Paragraph_styling{
+    width: 90%;
+    border: solid 2px #1A5D64;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px;
+}
+p.line_height_100{
+    line-height: 100%;
+}
+p.line_height_150{
+    line-height: 150%;
+}
+p.line_height_200{
+    line-height: 200%;
+}
+.Text_alignment{
+    width: 90%;
+    border: solid 2px #1A5D64;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px;
+}
+p.text_align_lef{
+    text-align: left;
+}
+p.text_align_right{
+    text-align: right;
+}
+p.text_align_center{
+    text-align: center;
+}
+p.text_align_justify{
+    text-align: justify;
+}
+p.text_indent{
+    text-indent: 35px;
+}
+
