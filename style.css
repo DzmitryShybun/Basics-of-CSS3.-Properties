@@ -260,5 +260,31 @@ div.list_style_image{
 }
 ul.list_style_image{
     list-style-image: url("image/iphone.JPG");
+}
 
+div.Table_styling{
+    width: 400px;
+    border: solid 2px #1A5D64;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 2px;
+}
+.Table_styling table{
+    border: 1px solid #1A5D64;
+    border-spacing: 3px;
+}
+.Table_styling td, .Table_styling th{
+    border: 1px solid #1A5D64;
+}
+.collapsed{
+    border-collapse: collapse;
+}
+.Separate{
+    border-collapse: separate;
+}
+.hidden-empty-cells{
+    empty-cells: hide;
+}
+.captionBottom{
+    caption-side: bottom;
 }
