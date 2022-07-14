@@ -310,3 +310,10 @@ div.Table_styling{
     padding: 11px;
     border: solid 3px red;
 }
+.margin div{
+    border: solid 3px red;
+    margin-top: 30px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
