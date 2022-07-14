@@ -303,3 +303,10 @@ div.Table_styling{
 .bottom{
     vertical-align: bottom;
 }
+
+/*Блочная модель*/
+.block{
+    margin: 15px;
+    padding: 11px;
+    border: solid 3px red;
+}
