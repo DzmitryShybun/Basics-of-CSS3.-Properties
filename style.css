@@ -263,7 +263,7 @@ ul.list_style_image{
 }
 
 div.Table_styling{
-    width: 400px;
+    width: 480px;
     border: solid 2px #1A5D64;
     border-radius: 5px;
     margin: 5px;
@@ -287,4 +287,19 @@ div.Table_styling{
 }
 .captionBottom{
     caption-side: bottom;
+}
+.table_layout{
+    table-layout: fixed;
+    width: 450px;
+    border-radius: 5px;
+}
+.top
+{
+    vertical-align: top;
+}
+.baseline{
+    vertical-align: baseline;
+}
+.bottom{
+    vertical-align: bottom;
 }
