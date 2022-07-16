@@ -354,3 +354,31 @@ div.Table_styling{
 .ridge{border-style: ridge;}
 .groove{border-style: groove}
 
+/*Размеры элементов*/
+div.outer1{
+    width: 75%;
+    height: 200px;
+    margin-left: 12.5%;
+    border: 1px solid #ccc;
+    background-color: #1A5D64;
+    border-radius: 20px 20px 60px 60px;
+}
+div.inner1{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 20px 20px 60px 60px;
+    background-color: #92B5B9;
+    opacity: 11%;
+}
+div.outer2{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid #92B5B9;
+    background-color: #cccccc;
+    box-sizing: border-box;
+
+}
