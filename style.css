@@ -420,6 +420,45 @@ div.outer2{
     background-color: #eee;
     background-image: url("image/Tesla.jpg");
     background-repeat: no-repeat;
-    background-position: top right;
+    /*background-position: top right;*/
     color: #cccccc;
+
+    /*Прокрутка фона*/
+    background-size: 100% 100%;
+    overflow:scroll;
+    background-attachment: scroll;
 }
+.background_origin div{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;  /* располагаем блоки в ряд */
+    color: #eee;
+
+    padding:15px;
+    border: 15px solid rgba(23,23,23,0.2);
+
+    background-image: url(image/tesla.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.borderBox{background-origin: border-box;}
+.paddingBox{background-origin: padding-box;}
+.contentBox{background-origin: content-box}
+.background_clip div{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+
+    color: #eee;
+    padding: 15px;
+    border: 15px solid rgba(23,23,23,0.1);
+
+    background-image: url("image/tesla.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.borderBox1{background-clip: border-box;}
+.paddingBox1{background-clip: padding-box}
+.contentBox1{background-clip: content-box}
