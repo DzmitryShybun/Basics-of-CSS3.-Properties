@@ -536,3 +536,68 @@ div.float {
     border: 1px solid #ccc;
     overflow: hidden;
 }
+
+/*Линейный градиент*/
+.linear_gradient div{
+    margin: 10px;
+}
+.prim1{
+    width: 200px;
+    height: 100px;
+    background-color: #eeeeee;
+    background-image: linear-gradient(left,black,white);
+    background-image: -o-linear-gradient(left,black,white);
+    background-image: -moz-linear-gradient(left,black,white);
+    background-image: -webkit-linear-gradient(left,black,white);
+}
+.prim1 p{
+    margin: 0;
+    padding-top: 30px;
+    text-align: center;
+    color:white;
+}
+.prim2{
+    width: 200px;
+    height: 100px;
+    background-color: #eeeeee;
+    background-image: linear-gradient(right,black,white);
+    background-image: -o-linear-gradient(right,black,white);
+    background-image: -moz-linear-gradient(right,black,white);
+    background-image: -webkit-linear-gradient(right,black,white);
+}
+.prim2 p{
+    margin: 0;
+    padding-top: 30px;
+    text-align: center;
+    color:white;
+}
+.prim3{
+    width: 200px;
+    height: 100px;
+    background-color: #eeeeee;
+    background-image: linear-gradient(top left,black,white);
+    background-image: -o-linear-gradient(top left,black,white);
+    background-image: -moz-linear-gradient(top left,black,white);
+    background-image: -webkit-linear-gradient(top left,black,white);
+}
+.prim3 p{
+    margin: 0;
+    padding-top: 30px;
+    text-align: center;
+    color:white;
+}
+.prim4{
+    width: 200px;
+    height: 100px;
+    background-color: #eeeeee;
+    background-image: repeating-linear-gradient(left, #ccc 20px, red 30px, rgba(0, 0, 126, .5) 40px);
+    background-image: -o-linear-gradient(left, #ccc 20px, red 30px, rgba(0, 0, 126, .5) 40px);
+    background-image: -moz-linear-gradient(left, #ccc 20px, red 30px, rgba(0, 0, 126, .5) 40px);
+    background-image: -webkit-linear-gradient(left, #ccc 20px, red 30px, rgba(0, 0, 126, .4) 40px);
+}
+.prim4 p{
+    margin: 0;
+    padding-top: 30px;
+    text-align: center;
+    color:white;
+}
