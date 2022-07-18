@@ -462,3 +462,15 @@ div.outer2{
 .borderBox1{background-clip: border-box;}
 .paddingBox1{background-clip: padding-box}
 .contentBox1{background-clip: content-box}
+
+/*Создание тени у элемента*/
+.box_shadow div{
+    width: 128px;
+    height: 96px;
+    margin: 20px;
+    border: 1px solid #cccccc;
+    background-color: #eeeeee;
+    border-radius: 4px;
+    box-shadow: 10px 4px 10px 3px #888, 11px 5px 10px -3px red;
+
+}
